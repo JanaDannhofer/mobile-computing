@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AjY-u5-16n">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Scl-AR-vUU">
+            <objects>
+                <navigationController id="AjY-u5-16n" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="R6z-TI-REn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Pya-t5-x9c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zvs-Bk-v5o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839" y="84"/>
+        </scene>
+        <!--Numberguess-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zahlenratespiel_richtig" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1X-VG-96m">
+                                <rect key="frame" x="174.5" y="432.5" width="65" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Guess"/>
+                                <connections>
+                                    <action selector="Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n9j-Mr-IsG"/>
+                                    <segue destination="a0O-ha-ucw" kind="show" id="88q-HM-xty"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Errate Zahl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ril-iT-Vu5">
+                                <rect key="frame" x="165" y="391.5" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="igR-Ue-YrZ">
+                                <rect key="frame" x="191" y="482" width="32" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="onEditingChange:" destination="BYZ-38-t0r" eventType="editingChanged" id="ZBW-m9-RQa"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="igR-Ue-YrZ" firstAttribute="top" secondItem="H1X-VG-96m" secondAttribute="bottom" constant="20" id="1rc-qC-dRB"/>
+                            <constraint firstItem="H1X-VG-96m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2QW-4V-lGv"/>
+                            <constraint firstItem="H1X-VG-96m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4dT-5A-d4J"/>
+                            <constraint firstItem="H1X-VG-96m" firstAttribute="top" secondItem="ril-iT-Vu5" secondAttribute="bottom" constant="20" id="MOt-d2-9l0"/>
+                            <constraint firstItem="H1X-VG-96m" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P7D-Pd-UPA"/>
+                            <constraint firstItem="ril-iT-Vu5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TtC-3R-p4Y"/>
+                            <constraint firstItem="igR-Ue-YrZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eOZ-xK-a20"/>
+                            <constraint firstItem="H1X-VG-96m" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zHY-Oq-Bsm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Numberguess" id="b1Z-Dy-hNA"/>
+                    <connections>
+                        <outlet property="button" destination="H1X-VG-96m" id="GzM-5A-maC"/>
+                        <outlet property="label" destination="ril-iT-Vu5" id="4Zj-MG-ElI"/>
+                        <outlet property="numberfield" destination="igR-Ue-YrZ" id="X78-bc-o0M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rpM-Wz-ydt">
+            <objects>
+                <viewController id="a0O-ha-ucw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nc3-U8-iGn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="90d-cc-ZcV"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RTo-e6-6YH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Mw-mt-1uN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="800" y="84"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" systemColor="systemRedColor"/>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

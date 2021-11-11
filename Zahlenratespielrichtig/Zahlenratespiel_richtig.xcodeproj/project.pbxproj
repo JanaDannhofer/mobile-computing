@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F5BE1A227183AE8003CEE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BE1A127183AE8003CEE12 /* AppDelegate.swift */; };
+		9F5BE1A427183AE8003CEE12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BE1A327183AE8003CEE12 /* SceneDelegate.swift */; };
+		9F5BE1A627183AE8003CEE12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BE1A527183AE8003CEE12 /* ViewController.swift */; };
+		9F5BE1A927183AE8003CEE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BE1A727183AE8003CEE12 /* Main.storyboard */; };
+		9F5BE1AB27183AE9003CEE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BE1AA27183AE9003CEE12 /* Assets.xcassets */; };
+		9F5BE1AE27183AE9003CEE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BE1AC27183AE9003CEE12 /* LaunchScreen.storyboard */; };
+		9F5BE1B927183AE9003CEE12 /* Zahlenratespiel_richtigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BE1B827183AE9003CEE12 /* Zahlenratespiel_richtigTests.swift */; };
+		9F5BE1C327183AE9003CEE12 /* Zahlenratespiel_richtigUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BE1C227183AE9003CEE12 /* Zahlenratespiel_richtigUITests.swift */; };
+		9F5BE1C527183AE9003CEE12 /* Zahlenratespiel_richtigUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BE1C427183AE9003CEE12 /* Zahlenratespiel_richtigUITestsLaunchTests.swift */; };
+		CEB1C71A2733FA4800DE185B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C7192733FA4800DE185B /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F5BE1B527183AE9003CEE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5BE19627183AE8003CEE12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5BE19D27183AE8003CEE12;
+			remoteInfo = Zahlenratespiel_richtig;
+		};
+		9F5BE1BF27183AE9003CEE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5BE19627183AE8003CEE12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5BE19D27183AE8003CEE12;
+			remoteInfo = Zahlenratespiel_richtig;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F5BE19E27183AE8003CEE12 /* Zahlenratespiel_richtig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zahlenratespiel_richtig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5BE1A127183AE8003CEE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F5BE1A327183AE8003CEE12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F5BE1A527183AE8003CEE12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F5BE1A827183AE8003CEE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F5BE1AA27183AE9003CEE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F5BE1AD27183AE9003CEE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F5BE1AF27183AE9003CEE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F5BE1B427183AE9003CEE12 /* Zahlenratespiel_richtigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zahlenratespiel_richtigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5BE1B827183AE9003CEE12 /* Zahlenratespiel_richtigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zahlenratespiel_richtigTests.swift; sourceTree = "<group>"; };
+		9F5BE1BE27183AE9003CEE12 /* Zahlenratespiel_richtigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zahlenratespiel_richtigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5BE1C227183AE9003CEE12 /* Zahlenratespiel_richtigUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zahlenratespiel_richtigUITests.swift; sourceTree = "<group>"; };
+		9F5BE1C427183AE9003CEE12 /* Zahlenratespiel_richtigUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zahlenratespiel_richtigUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEB1C7192733FA4800DE185B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F5BE19B27183AE8003CEE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5BE1B127183AE9003CEE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5BE1BB27183AE9003CEE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F5BE19527183AE8003CEE12 = {
+			isa = PBXGroup;
+			children = (
+				9F5BE1A027183AE8003CEE12 /* Zahlenratespiel_richtig */,
+				9F5BE1B727183AE9003CEE12 /* Zahlenratespiel_richtigTests */,
+				9F5BE1C127183AE9003CEE12 /* Zahlenratespiel_richtigUITests */,
+				9F5BE19F27183AE8003CEE12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5BE19F27183AE8003CEE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BE19E27183AE8003CEE12 /* Zahlenratespiel_richtig.app */,
+				9F5BE1B427183AE9003CEE12 /* Zahlenratespiel_richtigTests.xctest */,
+				9F5BE1BE27183AE9003CEE12 /* Zahlenratespiel_richtigUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F5BE1A027183AE8003CEE12 /* Zahlenratespiel_richtig */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BE1A127183AE8003CEE12 /* AppDelegate.swift */,
+				9F5BE1A327183AE8003CEE12 /* SceneDelegate.swift */,
+				9F5BE1A527183AE8003CEE12 /* ViewController.swift */,
+				CEB1C7192733FA4800DE185B /* Model.swift */,
+				9F5BE1A727183AE8003CEE12 /* Main.storyboard */,
+				9F5BE1AA27183AE9003CEE12 /* Assets.xcassets */,
+				9F5BE1AC27183AE9003CEE12 /* LaunchScreen.storyboard */,
+				9F5BE1AF27183AE9003CEE12 /* Info.plist */,
+			);
+			path = Zahlenratespiel_richtig;
+			sourceTree = "<group>";
+		};
+		9F5BE1B727183AE9003CEE12 /* Zahlenratespiel_richtigTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BE1B827183AE9003CEE12 /* Zahlenratespiel_richtigTests.swift */,
+			);
+			path = Zahlenratespiel_richtigTests;
+			sourceTree = "<group>";
+		};
+		9F5BE1C127183AE9003CEE12 /* Zahlenratespiel_richtigUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BE1C227183AE9003CEE12 /* Zahlenratespiel_richtigUITests.swift */,
+				9F5BE1C427183AE9003CEE12 /* Zahlenratespiel_richtigUITestsLaunchTests.swift */,
+			);
+			path = Zahlenratespiel_richtigUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F5BE19D27183AE8003CEE12 /* Zahlenratespiel_richtig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5BE1C827183AE9003CEE12 /* Build configuration list for PBXNativeTarget "Zahlenratespiel_richtig" */;
+			buildPhases = (
+				9F5BE19A27183AE8003CEE12 /* Sources */,
+				9F5BE19B27183AE8003CEE12 /* Frameworks */,
+				9F5BE19C27183AE8003CEE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zahlenratespiel_richtig;
+			productName = Zahlenratespiel_richtig;
+			productReference = 9F5BE19E27183AE8003CEE12 /* Zahlenratespiel_richtig.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F5BE1B327183AE9003CEE12 /* Zahlenratespiel_richtigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5BE1CB27183AE9003CEE12 /* Build configuration list for PBXNativeTarget "Zahlenratespiel_richtigTests" */;
+			buildPhases = (
+				9F5BE1B027183AE9003CEE12 /* Sources */,
+				9F5BE1B127183AE9003CEE12 /* Frameworks */,
+				9F5BE1B227183AE9003CEE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5BE1B627183AE9003CEE12 /* PBXTargetDependency */,
+			);
+			name = Zahlenratespiel_richtigTests;
+			productName = Zahlenratespiel_richtigTests;
+			productReference = 9F5BE1B427183AE9003CEE12 /* Zahlenratespiel_richtigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F5BE1BD27183AE9003CEE12 /* Zahlenratespiel_richtigUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5BE1CE27183AE9003CEE12 /* Build configuration list for PBXNativeTarget "Zahlenratespiel_richtigUITests" */;
+			buildPhases = (
+				9F5BE1BA27183AE9003CEE12 /* Sources */,
+				9F5BE1BB27183AE9003CEE12 /* Frameworks */,
+				9F5BE1BC27183AE9003CEE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5BE1C027183AE9003CEE12 /* PBXTargetDependency */,
+			);
+			name = Zahlenratespiel_richtigUITests;
+			productName = Zahlenratespiel_richtigUITests;
+			productReference = 9F5BE1BE27183AE9003CEE12 /* Zahlenratespiel_richtigUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F5BE19627183AE8003CEE12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9F5BE19D27183AE8003CEE12 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9F5BE1B327183AE9003CEE12 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9F5BE19D27183AE8003CEE12;
+					};
+					9F5BE1BD27183AE9003CEE12 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9F5BE19D27183AE8003CEE12;
+					};
+				};
+			};
+			buildConfigurationList = 9F5BE19927183AE8003CEE12 /* Build configuration list for PBXProject "Zahlenratespiel_richtig" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F5BE19527183AE8003CEE12;
+			productRefGroup = 9F5BE19F27183AE8003CEE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F5BE19D27183AE8003CEE12 /* Zahlenratespiel_richtig */,
+				9F5BE1B327183AE9003CEE12 /* Zahlenratespiel_richtigTests */,
+				9F5BE1BD27183AE9003CEE12 /* Zahlenratespiel_richtigUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F5BE19C27183AE8003CEE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5BE1AE27183AE9003CEE12 /* LaunchScreen.storyboard in Resources */,
+				9F5BE1AB27183AE9003CEE12 /* Assets.xcassets in Resources */,
+				9F5BE1A927183AE8003CEE12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5BE1B227183AE9003CEE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5BE1BC27183AE9003CEE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F5BE19A27183AE8003CEE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5BE1A627183AE8003CEE12 /* ViewController.swift in Sources */,
+				9F5BE1A227183AE8003CEE12 /* AppDelegate.swift in Sources */,
+				9F5BE1A427183AE8003CEE12 /* SceneDelegate.swift in Sources */,
+				CEB1C71A2733FA4800DE185B /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5BE1B027183AE9003CEE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5BE1B927183AE9003CEE12 /* Zahlenratespiel_richtigTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5BE1BA27183AE9003CEE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5BE1C327183AE9003CEE12 /* Zahlenratespiel_richtigUITests.swift in Sources */,
+				9F5BE1C527183AE9003CEE12 /* Zahlenratespiel_richtigUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F5BE1B627183AE9003CEE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5BE19D27183AE8003CEE12 /* Zahlenratespiel_richtig */;
+			targetProxy = 9F5BE1B527183AE9003CEE12 /* PBXContainerItemProxy */;
+		};
+		9F5BE1C027183AE9003CEE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5BE19D27183AE8003CEE12 /* Zahlenratespiel_richtig */;
+			targetProxy = 9F5BE1BF27183AE9003CEE12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F5BE1A727183AE8003CEE12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F5BE1A827183AE8003CEE12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F5BE1AC27183AE9003CEE12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F5BE1AD27183AE9003CEE12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F5BE1C627183AE9003CEE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F5BE1C727183AE9003CEE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F5BE1C927183AE9003CEE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zahlenratespiel_richtig/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htl.-perg.at.ac.Zahlenratespiel-richtig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F5BE1CA27183AE9003CEE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zahlenratespiel_richtig/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htl.-perg.at.ac.Zahlenratespiel-richtig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F5BE1CC27183AE9003CEE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htl.-perg.at.ac.Zahlenratespiel-richtigTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zahlenratespiel_richtig.app/Zahlenratespiel_richtig";
+			};
+			name = Debug;
+		};
+		9F5BE1CD27183AE9003CEE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htl.-perg.at.ac.Zahlenratespiel-richtigTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zahlenratespiel_richtig.app/Zahlenratespiel_richtig";
+			};
+			name = Release;
+		};
+		9F5BE1CF27183AE9003CEE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htl.-perg.at.ac.Zahlenratespiel-richtigUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zahlenratespiel_richtig;
+			};
+			name = Debug;
+		};
+		9F5BE1D027183AE9003CEE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htl.-perg.at.ac.Zahlenratespiel-richtigUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zahlenratespiel_richtig;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5BE19927183AE8003CEE12 /* Build configuration list for PBXProject "Zahlenratespiel_richtig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5BE1C627183AE9003CEE12 /* Debug */,
+				9F5BE1C727183AE9003CEE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5BE1C827183AE9003CEE12 /* Build configuration list for PBXNativeTarget "Zahlenratespiel_richtig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5BE1C927183AE9003CEE12 /* Debug */,
+				9F5BE1CA27183AE9003CEE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5BE1CB27183AE9003CEE12 /* Build configuration list for PBXNativeTarget "Zahlenratespiel_richtigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5BE1CC27183AE9003CEE12 /* Debug */,
+				9F5BE1CD27183AE9003CEE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5BE1CE27183AE9003CEE12 /* Build configuration list for PBXNativeTarget "Zahlenratespiel_richtigUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5BE1CF27183AE9003CEE12 /* Debug */,
+				9F5BE1D027183AE9003CEE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F5BE19627183AE8003CEE12 /* Project object */;
+}
